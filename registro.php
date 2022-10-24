@@ -25,10 +25,9 @@ if (empty($nome) or empty($gmail) or empty($senha) or empty($conf_senha)) {
 $sql = "INSERT INTO cadastro (codUsuario, nome, email, senha, confSenha) 
             VALUES (NULL, '$name', '$gmail', '$senha_atual', '$conf_senha')"; // Inserindo os dados no Banco de Dados.
 
-$user_existe = mysqli_query($conexao, "SELECT * FROM cadastro WHERE nome= '$name'"); // Verificando se este username já existe.
+$user_existe = mysqli_query($conexao, "SELECT * FROM cadastro WHERE email= '$gmail'"); // Verificando se este username já existe.
 if (mysqli_num_rows($user_existe) >= 1) {
-    echo "<h2 style='color: yellow'>Username já existente</h2>";
-    echo "<p style='font-size: 25px'><a href='index_cadastros.html'>Voltar ↺</a></p>";
+    echo "<h2 style='color: yellow'>Email já existente.</h2>";
     echo "<p style='font-size: 25px'><a href='index_cadastros.html'>Voltar ↺</a></p>";
     exit;
 }
@@ -36,7 +35,7 @@ if (mysqli_num_rows($user_existe) >= 1) {
 $resultado = mysqli_query($conexao, $sql); // Gravando os cadastros feitos no banco de dados.
 
 if (!$resultado)
-    echo "<h2 style='color: red'>Erro na Gravação do registro ;-;.</h2>";
+    echo "<h2 style='color: red'>Erro na Gravação do registro.</h2>";
 else echo "<h2 style='color: blue'>Registro Gravado ヅ.</h2>";
 ?>
 
