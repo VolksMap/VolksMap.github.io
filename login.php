@@ -6,7 +6,7 @@
 
 $conexao = mysqli_connect("localhost", "root", "", "volksmap"); // Criando Conexão no banco "volksmap"
 if ($conexao == false){
-    echo "<h3>Não foi possível entrar no servidor .-.</h3>";
+    echo "<h3>Não foi possível entrar no servidor.</h3>";
     exit;
 }
 
@@ -24,6 +24,8 @@ $verifica_row = mysqli_query($conexao,"SELECT * FROM cadastro WHERE gmail='$gmai
 
 if (mysqli_num_rows($verifica_row) == 1) { // Verificando o número de cadastros com essa mesma senha e usuário 
     echo "<h2 style='color: blueviolet; font-family:Comic Sans MS, serif'>Login efetuado com Sucesso.<br>";
+    echo "<a href="index.html"></a>
+    
 } else {
     echo "<h2 style='color: red'>Conta inválida ou Inexistente. Tente Novamente.</h2>";
     echo "<p style='font-size: 25px'><a href='index_login.html'>Voltar ↺</a></p>";
