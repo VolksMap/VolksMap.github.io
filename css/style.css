@@ -38,6 +38,7 @@ body{
 /* Barra de navegação */
 header, .navbar {
   background-color:var(--basecolor);
+  box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.55);
 }
 
 #nav-container {
