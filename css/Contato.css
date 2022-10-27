@@ -216,7 +216,7 @@ background-size: cover ;
     margin-bottom: 4rem;
   }
   .card:hover{
-    transform: translateX(0);
+    transform: translateX(0px);
   }
   .col-md-3{
     margin-right: 0;
@@ -254,8 +254,8 @@ background-size: cover ;
       width: 100rem;
       height: 2000px;
       z-index: -100;
-      top: 400px;
-      display: block;
+      top: 300px;
+
       }
       .bg_videofull2{
         position: absolute;
@@ -267,7 +267,6 @@ background-size: cover ;
         height: 2000px;
         z-index: -100;
         top: 1500px;
-        display: block;
         }
         
 }
