@@ -107,3 +107,36 @@ img {
 .caue{
   margin-left: 8rem;
 }
+@media(max-width: 768px){
+  /* time */
+ 
+  .col-md-3{
+    margin-right: 2rem;
+  }
+  .card {
+  width: 200px;
+  height: auto;
+  margin-left: 2rem;
+  }
+  .caue{
+    margin-left: 0;
+  }
+  .marcos{
+    margin-right: 0;
+  }
+}
+@media(max-width: 425px){
+  /* time */
+  .card {
+    margin-bottom: 4rem;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col-md-3{
+    margin-right: 0;
+  }
+  .caue{
+    margin-left: 0;
+  }
+}
