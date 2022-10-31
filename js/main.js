@@ -7,12 +7,7 @@ function img02 () {
 function img03 () {
     document.getElementById("stlgeral").src="https://www.google.com/maps/d/embed?mid=12CXXqWLBiBkWRvZ5EEJC2gjSHvyiQpI&ehbc=2E312F";
 }
-function img04 () {
-    document.getElementById("stlgeral").src="https://www.google.com/maps/d/embed?mid=16I8Pt-41blv52Trnu1T2id-5WPBIKPQ&ehbc=2E312F";
-}
-function img05 () {
-    document.getElementById("stlgeral").src="https://www.google.com/maps/d/embed?mid=16I8Pt-41blv52Trnu1T2id-5WPBIKPQ&ehbc=2E312F";
-}
+
 
 $(".sidebar ul li").on('click' , function() {
     $(".sidebar ul li.active").removeClass('active');
