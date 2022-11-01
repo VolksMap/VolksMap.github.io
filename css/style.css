@@ -352,22 +352,7 @@ margin-top: 10px;
   color: black;
 }
 
-@media(max-width: 425px){
-  .main-title{
-    display: none;
-  }
-  .main-maps{
-    margin-top: 0;
-    height: 100vh;
-  }
-  .sidebar-about{
-    margin-top: 35rem;
-    
-  }
-  .map-area{
-    margin-top:0;
-  }
-}
+
 @media(max-width: 768px){
   .main-title{
     display: none;
@@ -377,10 +362,125 @@ margin-top: 10px;
     height: 100vh;
   }
   .sidebar-about{
-    margin-top: 35rem;
+    margin-top: 32rem;
     
   }
+  .sidebar-title{
+    width: 285px;
+    height: 50px;
+  }
+  .sidebar-h3{
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    color: var(--sidebar-text-color);
+  }
+  .sidebar-areas{
+    width: 285px;
+    height: 285px;
+  }
+  .principalli{
+    padding: 15px 0;
+    font-size: 16px;
+    width: 240px;
+    
+  }
+  .sidebar-a{
+    width: 285px;
+    padding: 15px 10px ;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: var(--sidebar-altcolor);
+    margin-bottom: 1rem;
+    border-radius: 0.9rem;
+  }
+  .dropdown{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .sidebar-user{
+    padding: auto;
+  }
+  
   .map-area{
     margin-top: 0;
   }
+}
+
+@media(max-width: 425px){
+  .main-title{
+    display: none;
+  }
+  .main-maps{
+    margin-top: 0;
+    height: 100vh;
+  }
+  .sidebar-about{
+    margin-top: 30rem;
+    
+  }
+  .map-area{
+    margin-top:0;
+  }
+  .sidebar-title{
+    width: 280px;
+    height: 50px;
+  }
+  .sidebar-h3{
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    color: var(--sidebar-text-color);
+  }
+  .sidebar-areas{
+    width: 280px;
+    height: 280px;
+  }
+  .principalli{
+    padding: 15px 0;
+    font-size: 14px;
+    width: 240px;
+    
+  }
+  .sidebar-a{
+    text-decoration: none;
+    color: var(--sidebar-text-color);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    padding: 15px 10px ;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: var(--sidebar-altcolor);
+    margin-bottom: 1rem;
+    border-radius: 0.9rem;
+  }
+  
+  .sidebar-i-h3{
+    color: var(--sidebar-text-color);
+    font-size: 25px;
+  }
+  .sidebar-i{
+    color: var(--sidebar-text-color);
+    font-size: 25px;
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  .dropdown{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+   
+  }
+  
 }
