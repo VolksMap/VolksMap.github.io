@@ -17,7 +17,7 @@ p, li{
 }
 :root{
   --hue: 159;
-  --basecolor:  #004aad;
+  --basecolor:  #063b81;
   --basesecondcolor: #1b98e0;
   --basecolor-alt: #67a8cd;
   --bodycolor: hsl(0 0% 98%);
@@ -236,9 +236,9 @@ img{
    /* USAR */
 
    #usar iframe{
-    width: 395px;
-    height: 225px;
-    margin-left: 0;
+    width: auto;
+    height: auto;
+    margin-left: 3rem;
    }
    #about-list li{
     font-size: 12px;
