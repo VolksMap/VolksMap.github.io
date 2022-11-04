@@ -351,7 +351,122 @@ margin-top: 10px;
 .info{
   color: black;
 }
-
+@media(max-width: 1366px){
+  .main-title{
+    display: none;
+  }
+  .main-maps{
+    margin-top: 0;
+    height: 100vh;
+  }
+  .sidebar-about{
+    margin-top: 30.5rem;
+    
+  }
+  .sidebar-title{
+    width: 285px;
+    height: 50px;
+  }
+  .sidebar-h3{
+    margin-top: 1rem;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    color: var(--sidebar-text-color);
+  }
+  .sidebar-areas{
+    width: 285px;
+    height: 285px;
+  }
+  .principalli{
+    padding: 15px 0;
+    font-size: 16px;
+    width: 240px;
+    
+  }
+  .sidebar-a{
+    width: 285px;
+    padding: 15px 10px ;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: var(--sidebar-altcolor);
+    margin-bottom: 1rem;
+    border-radius: 0.9rem;
+  }
+  .dropdown{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .sidebar-user{
+    padding: auto;
+  }
+  
+  .map-area{
+    margin-top: 0;
+  }
+}
+@media(max-width: 1024px){
+  .main-title{
+    display: none;
+  }
+  .main-maps{
+    margin-top: 0;
+    height: 100vh;
+  }
+  .sidebar-about{
+    margin-top: 32rem;
+    
+  }
+  .sidebar-title{
+    width: 285px;
+    height: 50px;
+  }
+  .sidebar-h3{
+    margin-top: 1rem;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    color: var(--sidebar-text-color);
+  }
+  .sidebar-areas{
+    width: 285px;
+    height: 285px;
+  }
+  .principalli{
+    padding: 15px 0;
+    font-size: 16px;
+    width: 240px;
+    
+  }
+  .sidebar-a{
+    width: 285px;
+    padding: 15px 10px ;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: var(--sidebar-altcolor);
+    margin-bottom: 1rem;
+    border-radius: 0.9rem;
+  }
+  .dropdown{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .sidebar-user{
+    padding: auto;
+  }
+  
+  .map-area{
+    margin-top: 0;
+  }
+}
 
 @media(max-width: 768px){
   .main-title{
