@@ -351,6 +351,7 @@ margin-top: 10px;
 .info{
   color: black;
 }
+
 @media(max-width: 1366px){
   .main-title{
     display: none;
@@ -403,6 +404,72 @@ margin-top: 10px;
   }
   .sidebar-user{
     padding: auto;
+  }
+  
+  .map-area{
+    margin-top: 0;
+  }
+}
+@media(max-width: 1115px){
+  header, .navbar {
+    height: 60px;
+  }
+  .main-title{
+    display: none;
+  }
+  .main-maps{
+    margin-top: 0;
+    height: 100vh;
+  }
+  .sidebar-about{
+    margin-top: 27.5rem;
+    
+  }
+  .sidebar-title{
+    width: 275px;
+    height: 48px;
+  }
+  .sidebar-h3{
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    color: var(--sidebar-text-color);
+  }
+  .sidebar-i-h3{
+    color: var(--sidebar-text-color);
+    font-size: 25px;
+  }
+  .sidebar-areas{
+    width: 260px;
+    height: 270px;
+  }
+  .principalli{
+    padding: 15px 0;
+    font-size: 14px;
+    width: 230px;
+    
+  }
+  .sidebar-a{
+    width: 275px;
+    padding: 15px 10px ;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: var(--sidebar-altcolor);
+    margin-bottom: 1rem;
+    border-radius: 0.9rem;
+  }
+  .dropdown{
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+  }
+  .sidebar-user{
+    padding: auto;
+    height: 65px;
   }
   
   .map-area{
