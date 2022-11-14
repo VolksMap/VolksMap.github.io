@@ -21,7 +21,7 @@ public class LoginController {
 	}
 	
 	
-	@GetMapping("/cadastro") 
+	@GetMapping("/registro") 
 	public String cadastro() {
 		return "registro";
 	}
