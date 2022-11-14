@@ -31,89 +31,91 @@
 </head>
 <body>
     <header>
-        <div class="container sidebar" id="nav-container">
-            <input type="checkbox" id="chec">
-           
-            <nav id="sidebar">
-              <div class="container  side-bar_container">
-                <ul class="side-bar">
-                    <div class="sidebar-title">
-                    <h3 class="sidebar-h3"><i class="fa-solid fa-chart-area sidebar-i-h3"></i>Áreas</h3>
-                  </div>
-                  <hr class="sidebar-hr-alt">
-                    <div class="sidebar-areas">
-                    <li><li class="principalli"><input type="button" value="VISÃO GERAL" onclick="img01();" class="satelite"></li></li>
-                    <li> <li class="principalli"><input type="button" value="VISÃO ALAS PRINCIPAIS" onclick="img02();"  class="sateliteareas"></li></li>
-                    <li><li class="principalli"><input type="button" value="VISÃO ENTRADAS" onclick="img03();"  class="visao3d"></li></li>
-                  </div>
-                </ul>
-                <div class="sidebar-about">
-                  <hr class="sidebar-hr">
-                  <a href="Contato.html" class="sidebar-a"><i class="material-symbols-outlined sidebar-i">account_circle</i>Contato</a>
-                  <a href="Sobre.html" class="sidebar-a"><i class="material-symbols-outlined sidebar-i-s">contact_support</i>Sobre</a>
-                  
-                </div>
-                
-                <div class="conteiner dropdown">
-                    <input type="checkbox" id="chec-user">
-                <label class="sidebar-user" for="chec-user">
-                    <a href="" class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="true">
-                        <img src="img/person1.jpeg" alt="" width="32" height="32" class="rounded-circle me-2">
-                        <strong>User</strong>
-                    </a>
-                </label>
-              
-                    <ul class="dropdown-menu-dark text-small shadow "
-                    style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate(opx, -34px);" data-popper-placement="top-start">
-                    
-                      <li>
-                        <a class="dropdown-item" href="">Settings</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="">Profile</a>
-                      </li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="login.html">Sing out</a>
-                      </li>
+        <async style="height: 8px; overflow-y: scroll" > 
+            <div class="container sidebar" id="nav-container">
+                <input type="checkbox" id="chec">
 
+                <nav id="sidebar">
+                  <div class="container  side-bar_container">
+                    <ul class="side-bar">
+                        <div class="sidebar-title">
+                        <h3 class="sidebar-h3"><i class="fa-solid fa-chart-area sidebar-i-h3"></i>Áreas</h3>
+                      </div>
+                      <hr class="sidebar-hr-alt">
+                        <div class="sidebar-areas">
+                        <li><li class="principalli"><input type="button" value="VISÃO GERAL" onclick="img01();" class="satelite"></li></li>
+                        <li> <li class="principalli"><input type="button" value="VISÃO ALAS PRINCIPAIS" onclick="img02();"  class="sateliteareas"></li></li>
+                        <li><li class="principalli"><input type="button" value="VISÃO ENTRADAS" onclick="img03();"  class="visao3d"></li></li>
+                      </div>
                     </ul>
-                </div>
-              </div>
-            </nav>
-            <input type="checkbox" id="chec">
-            <label for="chec">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
-             <a href="#" class="navbar-brand">
-                <img id="logo" src="img/icone.png" alt="HDC Agency"> VolksMap
-             </a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-             aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-             <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" id="home-menu" href="index.html">Home</a>
-                    <a class="nav-item nav-link" id="about-menu" href="Sobre.html">Sobre</a>
-                    <a class="nav-item nav-link" id="services-menu" href="Contato.html">Contato</a>
-                </div>
-             </div>
-            </nav>
-        </div>
-    </header>
-    <main>
-        
-        <div class="container fluid map-area">
-             <div class="areas">
-               <iframe id="stlgeral" class="main-maps" src="https://www.google.com/maps/d/embed?mid=1F80_4k14xid-QT1G3BxDztm3FLYlTNU&ehbc=2E312F" width="1920" height="770"></iframe>
-                <iframe class="areas3d map" src="https://www.google.com/maps/d/embed?mid=1c5I2EkBCB4zCa2-eS0K2-UB2kurq960&ehbc=2E312F" width="1920" height="770"></iframe>
-                <iframe class="pntalas map" src="https://www.google.com/maps/d/embed?mid=12CXXqWLBiBkWRvZ5EEJC2gjSHvyiQpI&ehbc=2E312F" width="1920" height="770"></iframe>
-              
-               
-              </div> 
-        </div>
+                    <div class="sidebar-about">
+                      <hr class="sidebar-hr">
+                      <a href="Contato.html" class="sidebar-a"><i class="material-symbols-outlined sidebar-i">account_circle</i>Contato</a>
+                      <a href="Sobre.html" class="sidebar-a"><i class="material-symbols-outlined sidebar-i-s">contact_support</i>Sobre</a>
+
+                    </div>
+
+                    <div class="conteiner dropdown">
+                        <input type="checkbox" id="chec-user">
+                    <label class="sidebar-user" for="chec-user">
+                        <a href="" class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="true">
+                            <img src="img/person1.jpeg" alt="" width="32" height="32" class="rounded-circle me-2">
+                            <strong>User</strong>
+                        </a>
+                    </label>
+
+                        <ul class="dropdown-menu-dark text-small shadow "
+                        style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate(opx, -34px);" data-popper-placement="top-start">
+
+                          <li>
+                            <a class="dropdown-item" href="">Settings</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="">Profile</a>
+                          </li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="login.html">Sing out</a>
+                          </li>
+
+                        </ul>
+                    </div>
+                  </div>
+                </nav>
+                <input type="checkbox" id="chec">
+                <label for="chec">
+                <nav class="navbar navbar-expand-lg fixed-top">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                 <a href="#" class="navbar-brand">
+                    <img id="logo" src="img/icone.png" alt="HDC Agency"> VolksMap
+                 </a>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                 aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" href="index.html">Home</a>
+                        <a class="nav-item nav-link" id="about-menu" href="Sobre.html">Sobre</a>
+                        <a class="nav-item nav-link" id="services-menu" href="Contato.html">Contato</a>
+                    </div>
+                 </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+
+            <div class="container fluid map-area">
+                 <div class="areas">
+                   <iframe id="stlgeral" class="main-maps" src="https://www.google.com/maps/d/embed?mid=1F80_4k14xid-QT1G3BxDztm3FLYlTNU&ehbc=2E312F" width="1920" height="770"></iframe>
+                    <iframe class="areas3d map" src="https://www.google.com/maps/d/embed?mid=1c5I2EkBCB4zCa2-eS0K2-UB2kurq960&ehbc=2E312F" width="1920" height="770"></iframe>
+                    <iframe class="pntalas map" src="https://www.google.com/maps/d/embed?mid=12CXXqWLBiBkWRvZ5EEJC2gjSHvyiQpI&ehbc=2E312F" width="1920" height="770"></iframe>
+
+
+                  </div> 
+            </div>
+       </async> 
 
     </main>
   
