@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="imagem/VolksMap_Logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="style_login.css" rel="stylesheet" />
+</head>
+<body>
+    <header id="header">
+        <nav class="container">
+          <a class="logo" href="#"><span>V</span>olks<span>M</span>ap</a>
+        </nav>
+    </header>
+
+    <div id="login-container">
+        <h1 style="font-size: 40px">Login</h1><br>
+        <form action="/logar"  method="get">
+            <input type="email" name="email" id="email" placeholder="Seu E-mail" autocomplete="off">
+            <input type="password" name="senha" id="password" placeholder="Sua Senha">
+
+            <a href="#" id="forgot-pass" style="font-size: 15px">Esqueceu a senha?</a>
+            <input type="submit" value="Login">
+        </form>
+
+        <div id="social-container">
+            <p>Ou entre pelas redes sociais</p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <div id="register-container">
+            <p>Ainda não tem conta?</p>
+            <a href="/cadastro" style="font-size: 16px">Registrar</a>
+        </div>
+        <br>
+        <a href="/menu" style="font-size: 16px">Entrar como visitante</a>
+    
+    </div>
+</body>
+</html>

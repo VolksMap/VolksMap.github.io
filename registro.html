@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style_login.css" rel="stylesheet" >
+</head>
+<body>
+    <header id="header">
+        <nav class="container">
+          <a class="logo" href="#"><span>V</span>olks<span>M</span>ap</a>
+        </nav>
+    </header>
+	<aside>
+	    <div id="login-container">
+	        <h1 style="font-size: 40px">Registro</h1><br>
+	        <form method="post" action="/salvar">
+	            <input type="text" style="background-color: transparent;" name="nome" id="" placeholder="Seu Nome">
+	            <input type="email" style="background-color: transparent;" name="email" id="email" placeholder="Seu E-mail" autocomplete="off">
+	            <input type="password" style="background-color: transparent;" name="senha" id="password" placeholder="Sua Senha">
+	            <input type="password" style="background-color: transparent;" name="confpassword" id="confpassword" placeholder="Confirmar Senha">
+	            <input type="submit"  value="Register">
+	        </form>
+	        <div id="social-container">
+	            <p>Ou entre pelas redes sociais</p>
+	            <i class="fa fa-facebook"></i>
+	            <i class="fa fa-linkedin"></i>
+	        </div>
+	        
+		        <div id="register-container">
+		            <p>Já possui uma conta?</p>
+		            <a href="/login" style="font-size: 16px">Login</a><br>
+	        	</div>
+	    </aside>
+    </div>
+</body>
+</html>
