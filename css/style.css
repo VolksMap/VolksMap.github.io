@@ -228,8 +228,7 @@ i{
 .dropdown-menu-dark{
   list-style: none;
   background-color: var(--sidebar-text-color);
-  border-radius: .5rem ;
-  visibility: hidden;
+  border-radius: .5rem;
 }
 .rounded-circle {
   margin-right: 1rem;
