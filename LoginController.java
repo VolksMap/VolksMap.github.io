@@ -41,7 +41,7 @@ public class LoginController {
 	public String salvar(Login login) {
 		repository.save(login);
 		
-		return "login";
+		return "login.html";
 		
 	}
 }
