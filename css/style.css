@@ -68,12 +68,16 @@ input[type="checkbox"]
 #sidebar {
     background-color: var(--lateral-color);
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+    overflow-y: auto;
     border-right: 2.5px solid #4F4F4F;
     width: 350px;
     height: 100vh;
     left: -350px;
     position: fixed;
     transition: all .5s;
+}
+#sidebar ::-webkit-scrollbar {
+  width: 12px;               
 }
 input[type="checkbox"]:checked ~ nav 
 {
