@@ -14,20 +14,7 @@
       <!--bootstrap-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
-      <!--scripts-->
-      <script
-    src="https://code.jquery.com/jquery-3.6.1.min.js"
-    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-    crossorigin="anonymous"></script>
-      <script src="js/main.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      <!-- FONT AWESOME-->
-      <script src="https://kit.fontawesome.com/b2a3d081e3.js" crossorigin="anonymous"></script>
-      <!-- Progress bar-->
-      <script src="js/progressbar.min.js"></script>
-      <!-- Parallax-->
-      <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+     
 </head>
 <body>
     <header>
@@ -56,16 +43,16 @@
                     </div>
 
                     <div class="conteiner dropdown">
-                        <input type="checkbox" id="chec-user">
-                    <label class="sidebar-user" for="chec-user">
-                        <a href="login.html" class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="true">
+                    <div class="sidebar-user">
                             <img src="img/person1.jpeg" alt="" width="32" height="32" class="rounded-circle me-2">
                             <strong>User</strong>
-                        </a>
-                    </label>
+                            <span class="material-symbols-outlined arrow">
+                              arrow_drop_down_circle
+                              </span>
+                      </div>
 
                         <ul class="dropdown-menu-dark text-small shadow "
-                        style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate(opx, -34px);" data-popper-placement="top-start">
+                        style=" margin: 0px;" data-popper-placement="top-start">
 
                           <li>
                             <a class="dropdown-item" href="">Settings</a>
@@ -108,17 +95,25 @@
 
             <div class="container fluid map-area">
                  <div class="areas">
-                   <iframe id="stlgeral" class="main-maps" src="https://www.google.com/maps/d/embed?mid=1F80_4k14xid-QT1G3BxDztm3FLYlTNU&ehbc=2E312F" width="1920" height="770"></iframe>
-                    <iframe class="areas3d map" src="https://www.google.com/maps/d/embed?mid=1c5I2EkBCB4zCa2-eS0K2-UB2kurq960&ehbc=2E312F" width="1920" height="770"></iframe>
-                    <iframe class="pntalas map" src="https://www.google.com/maps/d/embed?mid=12CXXqWLBiBkWRvZ5EEJC2gjSHvyiQpI&ehbc=2E312F" width="1920" height="770"></iframe>
-
-
+                   <iframe id="stlgeral" class="main-maps" src="https://www.google.com/maps/d/embed?mid=1OGX9AwJd9N4vreC1m8cBs3lhIcj79M0&ehbc=2E312F" width="1920" height="770"></iframe>
                   </div> 
             </div>
        </async> 
+        <!--scripts-->
+      <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!-- FONT AWESOME-->
+        <script src="https://kit.fontawesome.com/b2a3d081e3.js" crossorigin="anonymous"></script>
+        <!-- Progress bar-->
+        <script src="js/progressbar.min.js"></script>
+        <!-- Parallax-->
+        <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 
     </main>
-  
-
 </body>
 </html>
