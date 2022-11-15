@@ -30,7 +30,6 @@ body {
     background-image: url("img/volks_fundo.jpg");
     background-size: cover;
     font: 400 1rem 'DM Sans', sans-serif;
-    background-color: var(--bodycolor);
     color: var(--text-color);
     -webkit-font-smoothing: antialiased;
     overflow: hidden;
