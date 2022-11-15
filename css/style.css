@@ -76,9 +76,17 @@ input[type="checkbox"]
     position: fixed;
     transition: all .5s;
 }
-#sidebar ::-webkit-scrollbar {
-  width: 12px;               
+#sidebar::-webkit-scrollbar {
+  width: 8px;               
 }
+#sidebar::-webkit-scrollbar-track {
+  background: #808080;        
+}
+#sidebar::-webkit-scrollbar-thumb {
+  background-color: transparent;    
+  border-radius: 6px;       
+}
+
 input[type="checkbox"]:checked ~ nav 
 {
     transform: translateX(350px);
