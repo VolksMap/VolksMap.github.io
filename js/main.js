@@ -1,5 +1,5 @@
 function img01 () {
-    document.getElementById("stlgeral").src="https://www.google.com/maps/d/embed?mid=1OGX9AwJd9N4vreC1m8cBs3lhIcj79M0&ehbc=2E312F";
+    document.getElementById("stlgeral").src="https://www.google.com/maps/d/embed?mid=1o1I8cKymiT7Xsw95Eo03T1UTuQn2iec&ehbc=2E312F"";
 }
 function img02 () {
     document.getElementById("stlgeral").src="https://www.google.com/maps/d/embed?mid=1YGekpz0sDJ_xj5SprznubKRHGwe-008&ehbc=2E312F";
