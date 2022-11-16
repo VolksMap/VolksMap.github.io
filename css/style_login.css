@@ -27,7 +27,7 @@ input.invalid {
 }
 
 body {
-    background-image: url("img/volks_fundo.jpg");
+    background-image: url('i');
     background-size: cover;
     font: 400 1rem 'DM Sans', sans-serif;
     color: var(--text-color);
