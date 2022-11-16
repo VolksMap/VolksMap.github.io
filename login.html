@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="shortcut icon" href="imagem/VolksMap_Logo.png">
+    <link rel="shortcut icon" href="img/icone.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/style_login.css" rel="stylesheet" />
     
@@ -40,25 +40,6 @@
         <a href="index.html" style="font-size: 16px">Entrar como visitante</a>
     
     </div>
-    <script>
-        const submit = document.getElementById("submit");
-        let email = document.getElementById("email");
-        let senha = document.getElementById("password");
-
-        submit.addEventListener("click", validate);
-
-        function validate(e) {
-            if (email.value == " " && senha.value == " ") {
-                window.alert("Insira seus dados!");
-                email.focus();
-            } 
-            if(email.value == "admin@gmail.com" && senha.value == "admin"){ 
-                window.location.replace("https://volksmap.github.io/")
-                window.alert("Acessou!!");
-            } else {
-                window.alert("Acesso Negado!");
-            }
-        }
-    </script> 
+    <script src="js/validacao.js"></script> 
 </body>
 </html>
