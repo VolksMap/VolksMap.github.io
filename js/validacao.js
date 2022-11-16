@@ -8,7 +8,7 @@ enviar.addEventListener('click', function (){
         email.focus();
     } 
     else if(email.value == "admin@gmail.com" && senha.value == "admin"){ 
-        window.location .replace("https://volksmap.github.io/");
+        window .location .replace("https://volksmap.github.io/");
         window.alert("Acessou!!");
     } else {
         window.alert("Acesso Negado!");
