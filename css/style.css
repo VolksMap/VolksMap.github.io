@@ -4,12 +4,14 @@
 }
 html{
   overflow: hidden;
+
 }
 
 body{
   font-family: arial;
   height: 100vh;
   overflow: hidden;
+  background-color: var(--basecolor);
 }
 :root{
   --hue: 159;
@@ -26,6 +28,9 @@ body{
 }
 /* Barra de navegação */
 header, .navbar {
+  height: 6vh;
+  margin-bottom: 0;
+  position: fixed;
   background-color: var(--basecolor);
   box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.55);
 }
@@ -289,13 +294,17 @@ span.see{
   }
 
 .map {
-  height: 600px;
+  height: 94vh;
   width: 100vw ;
   display: flex;
   opacity: 0;
   padding: auto;
   position: relative;
   border-radius: 2rem;
+}
+.areas{
+  margin-top: 6vh;
+  padding: 0;
 }
 .areas::before {
   content:'';
@@ -381,14 +390,12 @@ position: relative;
 background-color: white;
 justify-items: center;
 }
-.map-area{
-  margin-top: 4rem;
-}
+
 .main-maps{
-  display: flex;
+ display: flex;
  width: 100vw;
  height: 94vh;
-margin-top: 10px;
+margin-top: 6vh;
 }
 .info{
   color: black;
@@ -400,7 +407,7 @@ margin-top: 10px;
   }
   .main-maps{
     margin-top: 0;
-    height: 100vh;
+    height: 94vh;
   }
   .sidebar-about{
     margin-top: 30.5rem;
@@ -462,7 +469,7 @@ margin-top: 10px;
   }
   .main-maps{
     margin-top: 0;
-    height: 100vh;
+    height: 94vh;
   }
   .sidebar-about{
     margin-top: 27.5rem;
@@ -525,7 +532,7 @@ margin-top: 10px;
   }
   .main-maps{
     margin-top: 0;
-    height: 100vh;
+    height: 94vh;
   }
   .sidebar-about{
     margin-top: 32rem;
@@ -584,7 +591,7 @@ margin-top: 10px;
   }
   .main-maps{
     margin-top: 0;
-    height: 100vh;
+    height: 94vh;
   }
   .sidebar-about{
     margin-top: 32rem;
@@ -643,7 +650,7 @@ margin-top: 10px;
   }
   .main-maps{
     margin-top: 0;
-    height: 100vh;
+    height: 94vh;
   }
   .sidebar-about{
     margin-top: 30rem;
