@@ -584,7 +584,7 @@ div.openent{
     margin-top: 0;
   }
 }
-@media(max-width: 1115px){
+@media(max-width: 1440px){
   header, .navbar {
     height: 60px;
   }
@@ -650,6 +650,21 @@ div.openent{
   .map-area{
     margin-top: 0;
   }
+  div.open{
+    left: 75%;
+    transition: .5s;
+    transform: rotate(180deg);
+    z-index: 1000;
+  }
+  div.openent{
+    transition: .5s;
+    overflow-y: auto;
+    left: 10%;
+    width: 80vw;
+    height: 100vh;
+    display: block;
+    transition: .5s;
+  }
 }
 @media(max-width: 1024px){
   .main-title{
@@ -708,6 +723,90 @@ div.openent{
   .map-area{
     margin-top: 0;
   }
+  .find{
+    display: none;
+   }
+   .find-btn{
+     left: 45vw;
+   }
+   .search-find {
+    background-color: #acacac;
+    border-radius: 1rem;
+    padding: 2rem 0;
+   }
+   .search-find input{
+     margin-left: 22%;
+     margin-right: 22%;
+     margin-bottom: 1rem;
+     width: 500px;
+     padding: 0 1rem;
+     border-radius: 1rem;
+     height: 35px;
+   }
+   .search-btn{
+    margin-left: 42%; 
+    width: 150px;
+    margin-bottom: 2rem;
+   }
+   .partida{
+     margin-bottom: 2rem;
+     height: 100%;
+     padding: 1rem 2rem;
+     overflow-y: scroll;
+   }
+   .col-md-6{
+     height: 50vh;
+     margin-bottom: 2rem;
+   }
+ 
+   .partida h4{
+     font-weight: bold;
+     background-color: var(--basecolor);
+     color: var(--sidebar-text-color);
+     text-align: center;
+     border-radius: .5rem;
+     }
+   .destino {
+     padding: 1rem 2rem;
+    background-color: #F0F8FF;
+   
+    height: 100%;
+    overflow-y: scroll;
+   }
+   .destino h4{
+   font-weight: bold;
+   background-color: var(--basecolor);
+   color: var(--sidebar-text-color);
+   text-align: center;
+   border-radius: .5rem;
+   }
+   .rotas{
+     position: absolute;
+     top: -15%;
+     left: 65%;
+     z-index: 4;
+   }
+   .rotas button{
+     height: 80px;
+     
+   }
+   div.open{
+     top: 6%;
+     left: 75%;
+     transition: .5s;
+     transform: rotate(180deg);
+     z-index: 1000;
+   }
+   div.openent{
+     top: -100%;
+     transition: .5s;
+     overflow-y: auto;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     display: block;
+     transition: .5s;
+   }
 }
 
 @media(max-width: 768px){
@@ -767,6 +866,86 @@ div.openent{
   .map-area{
     margin-top: 0;
   }
+  .find{
+    display: none;
+   }
+   .find-btn{
+     left: 45vw;
+   }
+  
+   .search-find input{
+     margin-left: 13%;
+     margin-right: 13%;
+     margin-bottom: 1rem;
+     width: 500px;
+     padding: 0 1rem;
+     border-radius: 1rem;
+     height: 35px;
+   }
+   .search-btn{
+    margin-left: 35%; 
+    width: 200px;
+    margin-bottom: 2rem;
+   }
+   .partida{
+     margin-bottom: 2rem;
+     height: 100%;
+     padding: 1rem 2rem;
+     overflow-y: scroll;
+   }
+   .col-md-6{
+     height: 50vh;
+     margin-bottom: 2rem;
+   }
+ 
+   .partida h4{
+     font-weight: bold;
+     background-color: var(--basecolor);
+     color: var(--sidebar-text-color);
+     text-align: center;
+     border-radius: .5rem;
+     }
+   .destino {
+     padding: 1rem 2rem;
+    background-color: #F0F8FF;
+   
+    height: 100%;
+    overflow-y: scroll;
+   }
+   .destino h4{
+   font-weight: bold;
+   background-color: var(--basecolor);
+   color: var(--sidebar-text-color);
+   text-align: center;
+   border-radius: .5rem;
+   }
+   .rotas{
+     position: absolute;
+     top: -15%;
+     left: 65%;
+     z-index: 4;
+   }
+   .rotas button{
+     height: 80px;
+     
+   }
+   div.open{
+     top: 6%;
+     left: 75%;
+     transition: .5s;
+     transform: rotate(180deg);
+     z-index: 1000;
+   }
+   div.openent{
+     top: -100%;
+     transition: .5s;
+     overflow-y: auto;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     display: block;
+     transition: .5s;
+   }
 }
 
 @media(max-width: 425px){
@@ -839,5 +1018,100 @@ div.openent{
     margin-top: 0;
    
   }
+  .find{
+   display: none;
+  }
+  .find-btn{
+    left: 45vw;
+  }
+ 
+  .search-find input{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1rem;
+    width: 300px;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    height: 35px;
+  }
+  .search-btn{
+   margin-left: 30%; 
+   width: 150px;
+   margin-bottom: 2rem;
+  }
+  .partida{
+    margin-bottom: 2rem;
+    height: 100%;
+    padding: 1rem 2rem;
+    overflow-y: scroll;
+  }
+  .col-md-6{
+    height: 50vh;
+    margin-bottom: 2rem;
+  }
+
+  .partida h4{
+    font-weight: bold;
+    background-color: var(--basecolor);
+    color: var(--sidebar-text-color);
+    text-align: center;
+    border-radius: .5rem;
+    }
+  .destino {
+    padding: 1rem 2rem;
+   background-color: #F0F8FF;
   
+   height: 100%;
+   overflow-y: scroll;
+  }
+  .destino h4{
+  font-weight: bold;
+  background-color: var(--basecolor);
+  color: var(--sidebar-text-color);
+  text-align: center;
+  border-radius: .5rem;
+  }
+  .rotas{
+    position: absolute;
+    top: -15%;
+    left: 65%;
+    z-index: 4;
+  }
+  .rotas button{
+    height: 80px;
+    
+  }
+  div.open{
+    top: 6%;
+    left: 75%;
+    transition: .5s;
+    transform: rotate(180deg);
+    z-index: 1000;
+  }
+  div.openent{
+    top: -100%;
+    transition: .5s;
+    overflow-y: auto;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    transition: .5s;
+  }
+}
+@media(max-width: 375px){
+  .search-find input{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+    width: 300px;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    height: 35px;
+  }
+  .search-btn{
+    margin-left: 28%; 
+    width: 150px;
+    margin-bottom: 2rem;
+   }
 }
