@@ -650,6 +650,41 @@ div.openent{
   .map-area{
     margin-top: 0;
   }
+  .partida{
+    margin-bottom: 2rem;
+    height: 60%;
+    padding: 1rem 2rem;
+    overflow-y: scroll;
+  }
+  .col-md-6{
+    height: 50vh;
+    margin-bottom: 2rem;
+  }
+  .partida h4{
+    font-weight: bold;
+    background-color: var(--basecolor);
+    color: var(--sidebar-text-color);
+    text-align: center;
+    border-radius: .5rem;
+    }
+  .destino {
+    padding: 1rem 2rem;
+   background-color: #F0F8FF;
+   height: 60%;
+   overflow-y: scroll;
+  }
+  .destino h4{
+  font-weight: bold;
+  background-color: var(--basecolor);
+  color: var(--sidebar-text-color);
+  text-align: center;
+  border-radius: .5rem;
+  }
+  .rotas{
+    position: absolute;
+    left: -7.5%;
+    z-index: 4;
+  }
   div.open{
     left: 75%;
     transition: .5s;
