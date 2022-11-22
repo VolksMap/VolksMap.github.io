@@ -17,11 +17,11 @@
      
 </head>
 <body>
+   <!-- HEADER-->
     <header>
         <async style="height: 8px; overflow-y: scroll" > 
             <div class="container sidebar" id="nav-container">
-                <input type="checkbox" id="chec">
-
+               <!-- SIDEBAR -->
                 <nav id="sidebar">
                   <div class="container  side-bar_container">
                     <ul class="side-bar">
@@ -71,11 +71,9 @@
                     </div>
                   </div>
                 </nav>
-                <input type="checkbox" id="chec">
-                <label for="chec">
+                 <!-- NAVBAR -->
                 <nav class="navbar navbar-expand-lg fixed-top">
-                        <i class="fa-solid fa-bars"></i>
-                    </label>
+                        <i class="fa-solid fa-bars menu-nav"></i>
                  <a href="#" class="navbar-brand">
                     <img id="logo" src="img/icone.png" alt="HDC Agency"> VolksMap
                  </a>
@@ -91,14 +89,96 @@
                 </nav>
             </div>
         </header>
+         <!-- MAIN -->
         <main>
-
+            <!-- MAPA -->
             <div class="container fluid map-area">
                  <div class="areas">
-                   <iframe id="stlgeral" class="main-maps" src="https://www.google.com/maps/d/embed?mid=1OGX9AwJd9N4vreC1m8cBs3lhIcj79M0&ehbc=2E312F" width="1920" height="770"></iframe>
+                   <iframe id="stlgeral" class="main-maps" src="https://www.google.com/maps/d/embed?mid=1OGX9AwJd9N4vreC1m8cBs3lhIcj79M0&ehbc=2E312F" width="1920" height="1080"></iframe>
                   </div> 
             </div>
        </async> 
+        <!-- FIND -->
+       <div class="find-btn">
+        <button>
+        <span class="material-symbols-outlined">
+          expand_circle_down
+          </span>
+        </button>
+       </div>
+       <div class="find">
+        <div class="title-find">
+          <h4>Encontrar Ala</h4>
+        </div>
+        <div class="container">
+          <div class="main-find">
+            <form class="search-find">
+              <input type="search" placeholder="Partida">
+              <input type="search" placeholder="Destino">
+              <button class="search-btn">
+                <span class="material-symbols-outlined">
+                  search
+                  </span>
+              </button>
+            </form>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+              <form class="partida">
+                <h4>Partida</h4>
+              <ul class="main-ul">
+              <li><input type="radio" name="Ala-partida" value="ala13" id="qui"> <label for="qui">Quiosque</label></li>
+              <li><input type="radio" name="Ala-partida" value="ala14" id="eng"> <label for="eng">Engenharia de Processos VW</label></li>
+              <li><input type="radio" name="Ala-partida" value="polo" id="res"> <label for="res">Polo Restaurante</label></li>
+              <li><input type="radio" name="Ala-partida" value="fpilo" id="fpilo"> <label for="fpilo">Fábrica Piloto VW Anchiet</label></li>
+              <li><input type="radio" name="Ala-partida" value="ala8" id="ala8"> <label for="ala8">Volkswagen ala 8</label></li>
+              <li><input type="radio" name="Ala-partida" value="visi" id="visi"> <label for="visi">Portaria de Visitantes Volkswagen</label></li>
+              <li><input type="radio" name="Ala-partida" value="pormate" id="pormate"> <label for="pormate">Portaria Materiais Volkswagen</label></li>
+              <li><input type="radio" name="Ala-partida" value="por" id="por"> <label for="por">Volkswagen do Brasil - Portaria F</label></li>
+              <li><input type="radio" name="Ala-partida" value="ala3" id="ala3"> <label for="ala5">Armação</label></li>
+              <li><input type="radio" name="Ala-partida" value="ala5" id="ala5"> <label for="ala5">Armação e Logística</label></li>
+              <li><input type="radio" name="Ala-partida" value="ala19" id="ala19"> <label for="ala19">Ala 19</label></li>
+              <li><input type="radio" name="Ala-partida" value="ala11" id="ala11"> <label for="ala11">Ala 11</label></li>
+              <li><input type="radio" name="Ala-partida" value="ala20" id="ala20"> <label for="ala20">Ala 20</label></li>
+              <li><input type="radio" name="Ala-partida" value="ala22" id="ala22"> <label for="ala22">Área de Tecnologia</label></li>
+              <li><input type="radio" name="Ala-partida" value="ala0" id="ala0"> <label for="ala0">Academia Volkswagen</label></li>
+              </ul>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <form class="destino">
+                <h4>Destino</h4>
+              <ul class="main-ul">
+                <li><input type="radio" name="Ala-destino" value="ala13" id="quides"> <label for="quides">Quiosque</label></li>
+                <li><input type="radio" name="Ala-destino" value="ala14" id="engdes"> <label for="engdes">Engenharia de Processos VW</label></li>
+                <li><input type="radio" name="Ala-destino" value="polo" id="resdes"> <label for="resdes">Polo Restaurante</label></li>
+                <li><input type="radio" name="Ala-destino" value="fpilo" id="fpilodes"> <label for="fpilodes">Fábrica Piloto VW Anchiet</label></li>
+                <li><input type="radio" name="Ala-destino" value="ala8" id="ala8des"> <label for="ala8des">Volkswagen ala 8</label></li>
+                <li><input type="radio" name="Ala-destino" value="visi" id="visides"> <label for="visides">Portaria de Visitantes Volkswagen</label></li>
+                <li><input type="radio" name="Ala-destino" value="pormate" id="pormatedes"> <label for="pormatedes">Portaria Materiais Volkswagen</label></li>
+                <li><input type="radio" name="Ala-destino" value="por" id="pordes"> <label for="pordes">Volkswagen do Brasil - Portaria F</label></li>
+                <li><input type="radio" name="Ala-destino" value="ala3" id="ala3des"> <label for="ala5des">Armação</label></li>
+                <li><input type="radio" name="Ala-destino" value="ala5" id="ala5des"> <label for="ala5des">Armação e Logística</label></li>
+                <li><input type="radio" name="Ala-destino" value="ala19" id="ala19des"> <label for="ala19des">Ala 19</label></li>
+                <li><input type="radio" name="Ala-destino" value="ala11" id="ala11des"> <label for="ala11des">Ala 11</label></li>
+                <li><input type="radio" name="Ala-destino" value="ala20" id="ala20des"> <label for="ala20des">Ala 20</label></li>
+                <li><input type="radio" name="Ala-destino" value="ala22" id="ala22des"> <label for="ala22des">Área de Tecnologia</label></li>
+                <li><input type="radio" name="Ala-destino" value="ala0" id="ala0des"> <label for="ala0des">Academia Volkswagen</label></li>
+              </ul>
+              </form>
+              <div class="rotas">
+                <button class="rotas-btn">
+                  <span class="material-symbols-outlined">
+                    alt_route
+                    </span>
+                </button>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+       </div>
         <!--scripts-->
       <script
       src="https://code.jquery.com/jquery-3.6.1.min.js"

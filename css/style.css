@@ -66,10 +66,7 @@ header, .navbar {
   padding: 1rem .8rem;
 }
 /* Sidebar*/
-input[type="checkbox"]
-{
-    display: none;
-}
+
 #sidebar {
     background-color: var(--lateral-color);
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
@@ -93,16 +90,10 @@ input[type="checkbox"]
   border: 3px solid transparent;     
 }
 
-input[type="checkbox"]:checked ~ nav 
-{
+nav.showmenu {
     transform: translateX(350px);
 }
-label{
-  padding: .5rem;
-  position: absolute;
-  z-index: 1;
-  
-}
+
 .sidebar-a{
   text-decoration: none;
   color: var(--sidebar-text-color);
@@ -339,30 +330,7 @@ img.stlgeralshow{
   visibility: visible;
   opacity: 1;
 }
-img.areas3d{
-  visibility: hidden;
-  opacity: 0;
-}
-img.areas3dshow{
-  visibility: visible;
-  opacity: 1;
-}
-img.pntalas{
-  visibility: hidden;
-  opacity: 0;
-}
-img.pntalasshow{
-  visibility: visible;
-  opacity: 1;
-}
-img.pntareas{
-  visibility: hidden;
-  opacity: 0;
-}
-img.pntareasshow{
-  visibility: hidden;
-  opacity: 0;
-}
+
 /* layout*/
 .main-title{
   height: 80px;
@@ -399,6 +367,155 @@ margin-top: 6vh;
 }
 .info{
   color: black;
+}
+/* Find */
+.find{
+  position: relative;
+  background-color: var(--sidebar-text-color);
+  width: 50%;
+  left: 25%;
+  height: 600px;
+  top: 45%;
+  transition: .5s;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  box-shadow: 2px -2px 46px -2px rgba(0,0,0,0.41);
+}
+.find-btn{
+  position: absolute;
+  background-color: var(--sidebar-text-color);
+  border-radius: 50rem;
+  height: 4rem;
+  padding: 0;
+  left: 48%;
+  top: 85%;
+  transition: .5s;
+}
+.find-btn span{
+  font-size: 4rem;
+  padding: 0;
+}
+.find-btn button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.title-find{
+  background-color: var(--basecolor);
+  color: var(--sidebar-text-color);
+  text-align: center;
+  height: 3rem;
+  padding: .5rem;
+  margin-bottom: 1.5rem;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+.search-find{
+  margin-bottom: 1rem;
+}
+.search-find input{
+  margin-left: 1rem;
+  width: 300px;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  height: 35px;
+}
+.search-btn{
+  background-color: var(--sidebar-altcolor);
+  outline: none;
+  width: 5rem;
+  height: 35px;
+  color: var(--sidebar-text-color);
+  border-radius: 1rem;
+}
+.main-ul{
+  list-style: none;
+}
+.partida{
+  padding: 0 2rem;
+  border-right: 4px solid var(--basesecondcolor) ;
+  border-left: 4px solid var(--basesecondcolor) ;
+  background-color: 	#F0F8FF;
+  padding: .5rem 4rem;
+  height: 325px;
+  overflow-y: scroll;
+}
+.partida input:checked + label{
+    font-weight: bold;
+    list-style: none;
+    color: var(--basesecondcolor);
+    border-bottom: 3px solid var(--basesecondcolor);
+}
+.partida h4{
+  font-weight: bold;
+  background-color: var(--basecolor);
+  color: var(--sidebar-text-color);
+  text-align: center;
+  border-radius: .5rem;
+  }
+.destino {
+ padding: .5rem 4rem;
+ background-color: #F0F8FF;
+ border-left: 4px solid var(--basesecondcolor) ;
+ border-right: 4px solid var(--basesecondcolor) ;
+ height: 325px;
+ overflow-y: scroll;
+}
+.destino h4{
+font-weight: bold;
+background-color: var(--basecolor);
+color: var(--sidebar-text-color);
+text-align: center;
+border-radius: .5rem;
+}
+.destino input:checked + label{
+  font-weight: bold;
+  list-style: none;
+  color: var(--basesecondcolor);
+  border-bottom: 3px solid var(--basesecondcolor);
+}
+.destino::-webkit-scrollbar, .partida::-webkit-scrollbar {
+  width: 8px;               
+}
+.destino::-webkit-scrollbar-track, .partida::-webkit-scrollbar-track {
+  background: transparent;        
+}
+.destino::-webkit-scrollbar-thumb, .partida::-webkit-scrollbar-thumb {
+  background-color: #808080; 
+  height: 10px;   
+  border-radius: 6px;  
+  border: 3px solid transparent;     
+}
+.main-find .row{
+  position: relative;
+}
+.rotas{
+  position: absolute;
+  top: 30%;
+  left: -9%;
+  z-index: 4;
+}
+.rotas button{
+  height: 80px;
+  background-color: var(--basesecondcolor);
+  border-radius: 100%;
+  padding: .7rem;
+  cursor: pointer;
+}
+.rotas button:hover{
+ background-color: var(--basecolor-alt);
+}
+.rotas button span{
+  font-size: 55px;
+}
+div.open{
+  top: 46%;
+  transition: .5s;
+  transform: rotate(180deg);
+}
+div.openent{
+  top: -20%;
+  transition: .5s;
 }
 
 @media(max-width: 1366px){
