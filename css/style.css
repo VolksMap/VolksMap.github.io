@@ -374,7 +374,7 @@ margin-top: 6vh;
   background-color: var(--sidebar-text-color);
   width: 50%;
   left: 25%;
-  height: 600px;
+  height: 60vh;
   top: 45%;
   transition: .5s;
   border-top-left-radius: .5rem;
@@ -395,11 +395,13 @@ margin-top: 6vh;
   font-size: 4rem;
   padding: 0;
 }
+
 .find-btn button{
   background-color: transparent;
   border: none;
   outline: none;
 }
+
 .title-find{
   background-color: var(--basecolor);
   color: var(--sidebar-text-color);
@@ -437,7 +439,7 @@ margin-top: 6vh;
   border-left: 4px solid var(--basesecondcolor) ;
   background-color: 	#F0F8FF;
   padding: .5rem 4rem;
-  height: 325px;
+  height: 60%;
   overflow-y: scroll;
 }
 .partida input:checked + label{
@@ -458,7 +460,7 @@ margin-top: 6vh;
  background-color: #F0F8FF;
  border-left: 4px solid var(--basesecondcolor) ;
  border-right: 4px solid var(--basesecondcolor) ;
- height: 325px;
+ height: 60%;
  overflow-y: scroll;
 }
 .destino h4{
@@ -467,6 +469,12 @@ background-color: var(--basecolor);
 color: var(--sidebar-text-color);
 text-align: center;
 border-radius: .5rem;
+}
+.destino label{
+  font-size: 14px;
+}
+.partida label{
+  font-size: 14px;
 }
 .destino input:checked + label{
   font-weight: bold;
