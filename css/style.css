@@ -525,6 +525,13 @@ div.openent{
   top: -20%;
   transition: .5s;
 }
+#pes{
+  position: absolute;
+  max-height: 20em;
+  border: 0 none;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 
 @media(max-width: 1366px){
   .main-title{

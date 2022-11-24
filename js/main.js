@@ -60,10 +60,14 @@ openala.addEventListener('click', function(){
 })
 
 var rotas = document.querySelector('div.rotas');
+var btnsearch = document.querySelector('button.search-btn')
+rotas.addEventListener('click', pesquisa)
+btnsearch.addEventListener('click', pesquisa)
 
-rotas.addEventListener('click', function(){ 
+function pesquisa(){ 
     var par = document.querySelector("input[name='Ala-partida']:checked").value;
     var des = document.querySelector("input[name='Ala-destino']:checked").value;
+
     if(par == 'ala13'){
         switch (des){
             case 'polo':
@@ -314,4 +318,4 @@ rotas.addEventListener('click', function(){
               
         }
     }
-}) 
+} 

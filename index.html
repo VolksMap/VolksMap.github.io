@@ -112,15 +112,33 @@
         </div>
         <div class="container">
           <div class="main-find">
-            <form class="search-find">
-              <input type="search" placeholder="Partida">
-              <input type="search" placeholder="Destino">
+            <div class="search-find">
+              <input type="text" name="pespar" id="inpar" list="pes"  placeholder="Partida">
+              <datalist id="pes" >
+                <option value="ala13">Quiosque</option>
+                <option value="ala14">Engenharia de Processos VW</option>
+                <option value="polo">Polo Restaurante</option>
+                <option value="fpilo">Fábrica Piloto VW Anchiet</option>
+                <option value="ala8">Volkswagen ala 8</option>
+                <option value="visi">Portaria de Visitantes Volkswagen</option>
+                <option value="pormate">Portaria Materiais Volkswagen</option>
+                <option value="por">Volkswagen do Brasil - Portaria F</option>
+                <option value="ala3">Armação</option>
+                <option value="ala5">Armação e Logística</option>
+                <option value="ala19">Ala 19</option>
+                <option value="ala11">Ala 11</option>
+               <option value="ala20">Ala 20</option>
+               <option value="ala22">Área de Tecnologia</option>
+               <option value="ala0">Academia Volkswagen</option>
+              </datalist>
+              <input type="text" name="pesd" id="indes" list="pes"  placeholder="Destino">
               <button class="search-btn">
                 <span class="material-symbols-outlined">
                   search
                   </span>
               </button>
-            </form>
+            </div>
+           
             <hr>
             <div class="container">
               <div class="row">
