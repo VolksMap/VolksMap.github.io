@@ -21,9 +21,11 @@ var co = 0
 menu.addEventListener('click', function(){
     if(co == 0){
         nav.classList.add('showmenu')
+        openala.classList.add('menu-on')
         co += 1
     }else{
         nav.classList.remove('showmenu') 
+        openala.classList.remove('menu-on')
         co = 0
     }
 })
@@ -168,6 +170,56 @@ function pesquisa(){
               
         }
     }
+    else if (par == 'polo'){
+        switch (des){
+            case 'polo':
+                alert('Verifique seu destino');
+                break;
+            case 'ala14':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3652.311648934252!2d-46.548173899128386!3d-23.736263524673607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41ae3ceb7c99%3A0xbc97adaf780ec412!2sEngenharia%20de%20Processos%20VW!3m2!1d-23.73985!2d-46.5458466!5e0!3m2!1spt-BR!2sbr!4v1669334927303!5m2!1spt-BR!2sbr";
+                break;
+            case 'fpilo':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3652.311648934252!2d-46.548173899128386!3d-23.736263524673607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41425f8f25e3%3A0x2a21a0f0a5fe747c!2sF%C3%A1brica%20Piloto%20VW%20Anchieta!3m2!1d-23.7345567!2d-46.5457554!5e0!3m2!1spt-BR!2sbr!4v1669334981319!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala8':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3652.311648934252!2d-46.548173899128386!3d-23.736263524673607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41a6c6b623af%3A0x3c4b6813d23e82a3!2sVolkswagen%20ala%208!3m2!1d-23.7347221!2d-46.551280899999995!5e0!3m2!1spt-BR!2sbr!4v1669335027714!5m2!1spt-BR!2sbr";
+                break;
+            case 'visi':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1085.8944837166234!2d-46.54884897545097!3d-23.729574633820853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41a247a6cb75%3A0x1896dfdbaafacaaa!2sPortaria%20de%20Visitantes%20Volkswagen!3m2!1d-23.7296288!2d-46.5486681!5e0!3m2!1spt-BR!2sbr!4v1669335067738!5m2!1spt-BR!2sbr";
+                break;
+            case 'pormate':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2171.6137075630577!2d-46.54439006035097!3d-23.740090714039475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41b189e23869%3A0x74c01463ae951dc2!2sPortaria%20Materiais%20Volkswagen!3m2!1d-23.7404293!2d-46.543670299999995!5e0!3m2!1spt-BR!2sbr!4v1669335113088!5m2!1spt-BR!2sbr";
+                break;
+            case 'por':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2171.6137075630577!2d-46.54439006035097!3d-23.740090714039475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41b3d8800211%3A0x280791f734df039d!2sVolkswagen%20do%20Brasil%20-%20Portaria%20F!3m2!1d-23.739003399999998!2d-46.5426992!5e0!3m2!1spt-BR!2sbr!4v1669335169230!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala3':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2171.7220243721545!2d-46.54899086381427!3d-23.733591922047125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41a38644c0ff%3A0x604ebfecb66f8d04!2sVolkswagen%20ALA%203!3m2!1d-23.732305399999998!2d-46.548052999999996!5e0!3m2!1spt-BR!2sbr!4v1669335216896!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala5':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d1826.1662162740938!2d-46.54729164174205!3d-23.73552204081858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m4!2s-23.736578366507572%2C%20-46.54504788217631!3m2!1d-23.7365784!2d-46.5450479!5e0!3m2!1spt-BR!2sbr!4v1669335275623!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala19':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d3652.2590539827197!2d-46.54973778441183!3d-23.73813982403076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m4!2s-23.740854504929583%2C%20-46.54776335701747!3m2!1d-23.740854499999998!2d-46.5477634!5e0!3m2!1spt-BR!2sbr!4v1669335332247!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala11':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d1826.1419966859512!2d-46.54848114174201!3d-23.737250140850893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m4!2s-23.739446947373345%2C%20-46.547671216650244!3m2!1d-23.739446899999997!2d-46.547671199999996!5e0!3m2!1spt-BR!2sbr!4v1669335417294!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala20':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d7304.341266971311!2d-46.551896722536604!3d-23.7412938674755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m4!2s-23.741570741704106%2C%20-46.54698462852571!3m2!1d-23.7415707!2d-46.546984599999995!5e0!3m2!1spt-BR!2sbr!4v1669335473775!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala22':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1826.1460114565584!2d-46.54987265683271!3d-23.73696368978969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41a70e93141d%3A0xa7f66750639cf25a!2sVolkswagen%20ALA%2022!3m2!1d-23.7359428!2d-46.5503819!5e0!3m2!1spt-BR!2sbr!4v1669335512687!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala13':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3652.311648934252!2d-46.548173899128386!3d-23.736263524673607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41a64cd4a463%3A0x4e52a3266b4da685!2sQuiosque%20-%20Ala%2013!3m2!1d-23.7371519!2d-46.547260099999995!5e0!3m2!1spt-BR!2sbr!4v1669334866139!5m2!1spt-BR!2sbr"
+                break;
+            default:
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1826.2671659620316!2d-46.55111061548522!3d-23.728317868377697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce410d0af2fea3%3A0xf3615f20a8956222!2sAcademia%20Volkswagen!3m2!1d-23.7278447!2d-46.5510522!5e0!3m2!1spt-BR!2sbr!4v1669335628002!5m2!1spt-BR!2sbr";
+                break;
+              
+        }
+    }   
     else if (par == 'ala14'){
         switch (des){
             case 'polo':
@@ -872,6 +924,56 @@ function inputpes(){
                 break;
             default:
                 document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3652.4392419840187!2d-46.550354384420416!3d-23.731711123791563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x94ce41425f8f25e3%3A0x2a21a0f0a5fe747c!2sF%C3%A1brica%20Piloto%20VW%20Anchieta!3m2!1d-23.7345567!2d-46.5457554!4m5!1s0x94ce410d0af2fea3%3A0xf3615f20a8956222!2sAcademia%20Volkswagen!3m2!1d-23.7278447!2d-46.5510522!5e0!3m2!1spt-BR!2sbr!4v1669142524160!5m2!1spt-BR!2sbr";
+                break;
+              
+        }
+    }
+    else if (par2 == 'polo'){
+        switch (des2){
+            case 'polo':
+                alert('Verifique seu destino');
+                break;
+            case 'ala14':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3652.311648934252!2d-46.548173899128386!3d-23.736263524673607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41ae3ceb7c99%3A0xbc97adaf780ec412!2sEngenharia%20de%20Processos%20VW!3m2!1d-23.73985!2d-46.5458466!5e0!3m2!1spt-BR!2sbr!4v1669334927303!5m2!1spt-BR!2sbr";
+                break;
+            case 'fpilo':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3652.311648934252!2d-46.548173899128386!3d-23.736263524673607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41425f8f25e3%3A0x2a21a0f0a5fe747c!2sF%C3%A1brica%20Piloto%20VW%20Anchieta!3m2!1d-23.7345567!2d-46.5457554!5e0!3m2!1spt-BR!2sbr!4v1669334981319!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala8':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3652.311648934252!2d-46.548173899128386!3d-23.736263524673607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41a6c6b623af%3A0x3c4b6813d23e82a3!2sVolkswagen%20ala%208!3m2!1d-23.7347221!2d-46.551280899999995!5e0!3m2!1spt-BR!2sbr!4v1669335027714!5m2!1spt-BR!2sbr";
+                break;
+            case 'visi':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1085.8944837166234!2d-46.54884897545097!3d-23.729574633820853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41a247a6cb75%3A0x1896dfdbaafacaaa!2sPortaria%20de%20Visitantes%20Volkswagen!3m2!1d-23.7296288!2d-46.5486681!5e0!3m2!1spt-BR!2sbr!4v1669335067738!5m2!1spt-BR!2sbr";
+                break;
+            case 'pormate':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2171.6137075630577!2d-46.54439006035097!3d-23.740090714039475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41b189e23869%3A0x74c01463ae951dc2!2sPortaria%20Materiais%20Volkswagen!3m2!1d-23.7404293!2d-46.543670299999995!5e0!3m2!1spt-BR!2sbr!4v1669335113088!5m2!1spt-BR!2sbr";
+                break;
+            case 'por':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2171.6137075630577!2d-46.54439006035097!3d-23.740090714039475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41b3d8800211%3A0x280791f734df039d!2sVolkswagen%20do%20Brasil%20-%20Portaria%20F!3m2!1d-23.739003399999998!2d-46.5426992!5e0!3m2!1spt-BR!2sbr!4v1669335169230!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala3':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2171.7220243721545!2d-46.54899086381427!3d-23.733591922047125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41a38644c0ff%3A0x604ebfecb66f8d04!2sVolkswagen%20ALA%203!3m2!1d-23.732305399999998!2d-46.548052999999996!5e0!3m2!1spt-BR!2sbr!4v1669335216896!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala5':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d1826.1662162740938!2d-46.54729164174205!3d-23.73552204081858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m4!2s-23.736578366507572%2C%20-46.54504788217631!3m2!1d-23.7365784!2d-46.5450479!5e0!3m2!1spt-BR!2sbr!4v1669335275623!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala19':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d3652.2590539827197!2d-46.54973778441183!3d-23.73813982403076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m4!2s-23.740854504929583%2C%20-46.54776335701747!3m2!1d-23.740854499999998!2d-46.5477634!5e0!3m2!1spt-BR!2sbr!4v1669335332247!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala11':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d1826.1419966859512!2d-46.54848114174201!3d-23.737250140850893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m4!2s-23.739446947373345%2C%20-46.547671216650244!3m2!1d-23.739446899999997!2d-46.547671199999996!5e0!3m2!1spt-BR!2sbr!4v1669335417294!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala20':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d7304.341266971311!2d-46.551896722536604!3d-23.7412938674755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m4!2s-23.741570741704106%2C%20-46.54698462852571!3m2!1d-23.7415707!2d-46.546984599999995!5e0!3m2!1spt-BR!2sbr!4v1669335473775!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala22':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1826.1460114565584!2d-46.54987265683271!3d-23.73696368978969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41a70e93141d%3A0xa7f66750639cf25a!2sVolkswagen%20ALA%2022!3m2!1d-23.7359428!2d-46.5503819!5e0!3m2!1spt-BR!2sbr!4v1669335512687!5m2!1spt-BR!2sbr";
+                break;
+            case 'ala13':
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3652.311648934252!2d-46.548173899128386!3d-23.736263524673607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce41a64cd4a463%3A0x4e52a3266b4da685!2sQuiosque%20-%20Ala%2013!3m2!1d-23.7371519!2d-46.547260099999995!5e0!3m2!1spt-BR!2sbr!4v1669334866139!5m2!1spt-BR!2sbr"
+                break;
+            default:
+                document.getElementById("stlgeral").src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1826.2671659620316!2d-46.55111061548522!3d-23.728317868377697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-23.7355372!2d-46.5464558!4m5!1s0x94ce410d0af2fea3%3A0xf3615f20a8956222!2sAcademia%20Volkswagen!3m2!1d-23.7278447!2d-46.5510522!5e0!3m2!1spt-BR!2sbr!4v1669335628002!5m2!1spt-BR!2sbr";
                 break;
               
         }

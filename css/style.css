@@ -71,6 +71,7 @@ header, .navbar {
     background-color: var(--lateral-color);
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
     overflow-y: auto;
+    z-index: 1000;
     border-right: 2.5px solid #4F4F4F;
     width: 350px;
     height: 100vh;
@@ -389,6 +390,7 @@ margin-top: 6vh;
   padding: 0;
   left: 48%;
   top: 85%;
+  z-index: 0;
   transition: .5s;
 }
 .find-btn span{
@@ -590,6 +592,21 @@ div.openent{
   .map-area{
     margin-top: 0;
   }
+  div.open{
+    left: 75%;
+    transition: .5s;
+    transform: rotate(180deg);
+    z-index: 1000;
+  }
+  div.openent{
+    transition: .5s;
+    overflow-y: auto;
+    left: 10%;
+    width: 80vw;
+    height: 94vh;
+    display: block;
+    transition: .5s;
+  }
 }
 @media(max-width: 1440px){
   header, .navbar {
@@ -703,7 +720,7 @@ div.openent{
     overflow-y: auto;
     left: 10%;
     width: 80vw;
-    height: 100vh;
+    height: 94vh;
     display: block;
     transition: .5s;
   }
@@ -845,7 +862,7 @@ div.openent{
      overflow-y: auto;
      left: 0;
      width: 100vw;
-     height: 100vh;
+     height: 94vh;
      display: block;
      transition: .5s;
    }
@@ -984,7 +1001,7 @@ div.openent{
      overflow-y: auto;
      left: 0;
      width: 100vw;
-     height: 100vh;
+     height: 94vh;
      display: block;
      transition: .5s;
    }
@@ -1064,7 +1081,11 @@ div.openent{
    display: none;
   }
   .find-btn{
-    left: 45vw;
+    left: 42vw;
+    
+  }
+  .menu-on{
+    display: none;
   }
  
   .search-find input{
@@ -1135,7 +1156,7 @@ div.openent{
     overflow-y: auto;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 94vh;
     display: block;
     transition: .5s;
   }
@@ -1170,5 +1191,15 @@ div.openent{
    background-color: #F0F8FF;
    height: 90%;
    overflow-y: scroll;
+  }
+  div.openent{
+    top: -100%;
+    transition: .5s;
+    overflow-y: auto;
+    left: 0;
+    width: 100vw;
+    height: 94vh;
+    display: block;
+    transition: .5s;
   }
 }
